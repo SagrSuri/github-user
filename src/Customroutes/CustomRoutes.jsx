@@ -5,7 +5,7 @@ import { HomePage } from "../Pages/HomePage"
 export const CustomRoute=()=>{
     return(
         <Routes>
-            <Route path="/" element={<HomePage/>}/>
+            <Route path="/github-user/" element={<HomePage/>}/>
             
         </Routes>
     )
